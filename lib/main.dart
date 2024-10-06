@@ -244,11 +244,7 @@ class SkillsPage extends StatelessWidget {
               style: TextStyle(fontSize: 18),
             ),
             Text(
-              '- C++',
-              style: TextStyle(fontSize: 18),
-            ),
-            Text(
-              '- SQL',
+              '- C#',
               style: TextStyle(fontSize: 18),
             ),
             SizedBox(height: 20),
