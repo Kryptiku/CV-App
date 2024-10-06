@@ -236,7 +236,7 @@ class SkillsPage extends StatelessWidget {
             ),
             SizedBox(height: 5),
             Text(
-              '- Python',
+              '- Kotlin',
               style: TextStyle(fontSize: 18),
             ),
             Text(
@@ -249,13 +249,6 @@ class SkillsPage extends StatelessWidget {
             ),
             SizedBox(height: 20),
             
-            Text(
-              'Version Control',
-              style: TextStyle(
-                fontSize: 22,
-                fontWeight: FontWeight.bold,
-              ),
-            ),
             SizedBox(height: 5),
             Text(
               '- Git/GitHub',
