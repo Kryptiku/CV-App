@@ -11,7 +11,7 @@ class LoginPage extends StatelessWidget {
     // Check if username and password are correct
     if (username == 'ryceisnice' && password == '12345') {
       // login is successful, go to main.dart MyCVPage
-      Navigator.pushNamed(context, '/home');
+      Navigator.pushReplacementNamed(context, '/home');
     } else if (username == '' || password == '') {
       // if the username and/or password is empty go here
       showDialog(

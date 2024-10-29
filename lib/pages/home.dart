@@ -92,7 +92,7 @@ class _MyCVPageState extends State<MyCVPage> {
               ),
               title: const Text('Logout'),
               onTap: () {
-                Navigator.pushNamed(context, '/login');
+                Navigator.pushReplacementNamed(context, '/login');
               }
             )
           ],
